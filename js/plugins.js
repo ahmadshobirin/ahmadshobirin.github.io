@@ -1,11 +1,5 @@
 /* global $, alert, console*/
 
-/* ---------------------------------------------------
-Template Name: Marqa
-Description: Responsive HTML5 / CSS3 One-Page Portfolio-Resume Template
-Version: 2.0
-Author: Ahmed Beheiry
-URL: https://themeforest.net/user/ahmedbeheiry
 
 /* ---------------------------------------------------
 	*** Table Of Content:
