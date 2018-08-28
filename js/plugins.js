@@ -27,9 +27,9 @@
 	/* ---------------------------------------------------
 		1 - Loading Page
 	----------------------------------------------------- */
-	// $(window).on("load", function () {
-	// 	$(".preloader").delay(100).fadeOut(200);
-	// });
+	$(window).on("load", function () {
+		$(".preloader").delay(300).fadeOut(400);
+	});
 
 	/* ---------------------------------------------------
 		2 - Give the full size hero full height of the screen
