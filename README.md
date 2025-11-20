@@ -1,44 +1,24 @@
-# Ahmad Shobirin's Portfolio
+# Ahmad Shobirin – Portfolio (Build Output)
 
-A modern portfolio website built with Vue 3, TypeScript, and Tailwind CSS.
+Ini adalah hasil build dari proyek portofolio. Repo ini berisi artefak produksi yang disajikan melalui GitHub Pages.
 
-## Features
+## Sumber Proyek
 
-- Responsive design
-- Single Page Application with smooth scrolling
-- Portfolio showcase with detailed project views
-- Career timeline
-- Contact form
-- Modern UI with Tailwind CSS
+- Sumber kode dan pengembangan berada di repo proyek portofolio.
+- Perubahan tidak dilakukan di sini; lakukan di repo sumber lalu rebuild dan deploy.
 
-## Tech Stack
+## Cara Memperbarui
 
-- Vue 3
-- TypeScript
-- Vite
-- Tailwind CSS
-- Vue Router
+- Dari repo sumber, jalankan:
+  - Build untuk root: `npm run build:root`
+  - Deploy ke branch `master` repo `ahmadshobirin.github.io`: `npm run deploy:userpages:master`
 
-## Development
+## Catatan
 
-```bash
-# Install dependencies
-npm install
+- Aplikasi menggunakan Vue Router dengan hash (`#/`) sehingga aman di GitHub Pages root.
+- Base path build ini adalah `'/'`, sehingga aset dimuat dari `/assets/...`.
+- File yang relevan: `index.html`, folder `assets/`.
 
-# Start development server
-npm run dev
+## Kontak
 
-# Build for production
-npm run build
-
-# Deploy to GitHub Pages
-npm run deploy
-```
-
-## Project Structure
-
-- `src/components/` - Vue components
-- `src/pages/` - Page components
-- `src/router/` - Vue Router configuration
-- `src/types/` - TypeScript types
-- `src/data/` - Static data and content
+- Ahmad Shobirin — Software Engineer (Backend & Full-stack)
